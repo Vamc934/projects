@@ -41,11 +41,7 @@ public class AdactinTest extends BaseClass {
 		bc.launchBrowser("chrome");
 		bc.luanchUrl("https://adactinhotelapp.com/index.php");
 	}
-//	@AfterMethod
-//	private void screenshot(String string) {
-//		
-//
-//	}
+
 		@Test(priority=-2)
 		public void adactinTitle() {
 			reports =new ExtentReports();
