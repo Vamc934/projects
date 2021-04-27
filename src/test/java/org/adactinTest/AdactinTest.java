@@ -44,44 +44,44 @@ public class AdactinTest extends BaseClass {
 
 		@Test(priority=-2)
 		public void adactinTitle() {
-			reports =new ExtentReports();
-			htmlReport =new ExtentHtmlReporter("./test-output//test_results.html");
-			reports.attachReporter(htmlReport);
-			htmlReport.config().setDocumentTitle("AdactinReport");
-			htmlReport.config().setReportName("Functional Report");
-			htmlReport.config().setTheme(Theme.DARK);
-			test=reports.createTest("verifying the Adactin page");  
-			test.log(Status.INFO, "verifying the title page");
+//			reports =new ExtentReports();
+//			htmlReport =new ExtentHtmlReporter("./test-output//test_results.html");
+//			reports.attachReporter(htmlReport);
+//			htmlReport.config().setDocumentTitle("AdactinReport");
+//			htmlReport.config().setReportName("Functional Report");
+//			htmlReport.config().setTheme(Theme.DARK);
+//			test=reports.createTest("verifying the Adactin page");  
+//			test.log(Status.INFO, "verifying the title page");
 		String title=driver.getTitle();
-		if (title.contains("Adactin.com -")) {
-			test.log(Status.PASS, "title verified");
-			
-		}
-		else {
-			test.log(Status.FAIL,"title not verified");
-		}
+//		if (title.contains("Adactin.com -")) {
+//			test.log(Status.PASS, "title verified");
+//			
+//		}
+//		else {
+//			test.log(Status.FAIL,"title not verified");
+//		}
 	}
 
 	@Test(priority=-1)
 	private void login() throws IOException {
-		test=reports.createTest("Verifying the username and password field");
+		//test=reports.createTest("Verifying the username and password field");
 		lp=new LoginPage();
 		bc.enterText(lp.getUserName(), "karthi007");
-		if(lp.getUserName().getAttribute("value").equals("karthi007")) {
-			test.log(Status.PASS, "username valid");
-		}else {
-			test.log(Status.FAIL, "username invalid");
-		}
-		
+//		if(lp.getUserName().getAttribute("value").equals("karthi007")) {
+//			test.log(Status.PASS, "username valid");
+//		}else {
+//			test.log(Status.FAIL, "username invalid");
+//		}
+//		
 		bc.enterText(lp.getPass(), "Karthi@1989");
-		if(lp.getPass().getAttribute("value").equals("Karthi")) {
-			test.log(Status.PASS, "password  verified");
-		}else {
-			test.log(Status.FAIL, "password invalid");
-			File screenshotAs = lp.getPass().getScreenshotAs(OutputType.FILE);
-			FileHandler.copy(screenshotAs, new File("sceenshot.png"));
-			test.addScreenCaptureFromPath("sceenshot.png");
-		}
+//		if(lp.getPass().getAttribute("value").equals("Karthi")) {
+//			test.log(Status.PASS, "password  verified");
+//		}else {
+//			test.log(Status.FAIL, "password invalid");
+//			File screenshotAs = lp.getPass().getScreenshotAs(OutputType.FILE);
+//			FileHandler.copy(screenshotAs, new File("sceenshot.png"));
+//			test.addScreenCaptureFromPath("sceenshot.png");
+//		}
 		bc.click(lp.getLbn());
 	}
 	@Test(enabled=false)
@@ -145,10 +145,6 @@ public class AdactinTest extends BaseClass {
 	}	
 		
 	}
-	@AfterClass
-	private void tearDown() {
-		reports.flush();
 
-	}
 
 }

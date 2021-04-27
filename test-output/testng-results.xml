@@ -2,28 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="4" total="6" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="90132" started-at="2021-04-25T05:52:29Z" finished-at="2021-04-25T05:54:00Z">
+  <suite name="Suite" duration-ms="23195" started-at="2021-04-26T16:35:23Z" finished-at="2021-04-26T16:35:46Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="90132" started-at="2021-04-25T05:52:29Z" finished-at="2021-04-25T05:54:00Z">
+    <test name="Test" duration-ms="23195" started-at="2021-04-26T16:35:23Z" finished-at="2021-04-26T16:35:46Z">
       <class name="org.adactinTest.AdactinTest">
-        <test-method status="PASS" signature="browserLaunch()[pri:0, instance:org.adactinTest.AdactinTest@13deb50e]" name="browserLaunch" is-config="true" duration-ms="72617" started-at="2021-04-25T11:22:29Z" finished-at="2021-04-25T11:23:42Z">
+        <test-method status="PASS" signature="browserLaunch()[pri:0, instance:org.adactinTest.AdactinTest@13deb50e]" name="browserLaunch" is-config="true" duration-ms="19234" started-at="2021-04-26T22:05:24Z" finished-at="2021-04-26T22:05:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserLaunch -->
-        <test-method status="PASS" signature="adactinTitle()[pri:-2, instance:org.adactinTest.AdactinTest@13deb50e]" name="adactinTitle" duration-ms="2104" started-at="2021-04-25T11:23:42Z" finished-at="2021-04-25T11:23:44Z">
+        <test-method status="PASS" signature="adactinTitle()[pri:-2, instance:org.adactinTest.AdactinTest@13deb50e]" name="adactinTitle" duration-ms="68" started-at="2021-04-26T22:05:43Z" finished-at="2021-04-26T22:05:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- adactinTitle -->
-        <test-method status="PASS" signature="login()[pri:-1, instance:org.adactinTest.AdactinTest@13deb50e]" name="login" duration-ms="13587" started-at="2021-04-25T11:23:44Z" finished-at="2021-04-25T11:23:58Z">
+        <test-method status="PASS" signature="login()[pri:-1, instance:org.adactinTest.AdactinTest@13deb50e]" name="login" duration-ms="3219" started-at="2021-04-26T22:05:43Z" finished-at="2021-04-26T22:05:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.adactinTest.AdactinTest@13deb50e]" name="tearDown" is-config="true" duration-ms="1767" started-at="2021-04-25T11:23:58Z" finished-at="2021-04-25T11:24:00Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
       </class> <!-- org.adactinTest.AdactinTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
