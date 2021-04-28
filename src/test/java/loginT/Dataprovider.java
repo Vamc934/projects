@@ -33,6 +33,13 @@ public Object[][] datasets(){
 	                       ,{"nine","Vamsi@104"}
 	                       ,{"ten","Vamsi@114"}};
 }
+public void test1() {
+	System.out.println("hii");
+}
+@Test
+public void test2() {
+	System.out.println("hello");
+}
 @Test
 private void method2() {
 	System.out.println("hello");
@@ -43,6 +50,9 @@ private void method2() {
 private void method3() {
 	System.out.println("world");
 	
+
+
+
 
 }
 }

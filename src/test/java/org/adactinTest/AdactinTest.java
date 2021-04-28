@@ -141,9 +141,19 @@ public class AdactinTest extends BaseClass {
 		System.out.println("test case passed");
 	} else {
         System.out.println("test case failed");
+         System.out.println("test passed");
 	}	
 		
 	}
+      @Test(enabled=false){
+
+      public void Added(){
+      System.out.println("added");
+
+     }
+
+
+     }
 
 
 }
