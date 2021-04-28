@@ -57,7 +57,7 @@ public class AdactinTest extends BaseClass {
 //			test.log(Status.PASS, "title verified");
 //			
 //		}
-
+ 
 //		}
 	}
 
