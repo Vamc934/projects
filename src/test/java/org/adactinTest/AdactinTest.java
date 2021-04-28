@@ -57,8 +57,7 @@ public class AdactinTest extends BaseClass {
 //			test.log(Status.PASS, "title verified");
 //			
 //		}
-//		else {
-//			test.log(Status.FAIL,"title not verified");
+ 
 //		}
 	}
 
@@ -142,6 +141,7 @@ public class AdactinTest extends BaseClass {
 		System.out.println("test case passed");
 	} else {
         System.out.println("test case failed");
+         System.out.println("test passed");
 	}	
 		
 	}
