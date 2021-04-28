@@ -145,6 +145,15 @@ public class AdactinTest extends BaseClass {
 	}	
 		
 	}
+      @Test(enabled=false){
+
+      public void Added(){
+      System.out.println("added");
+
+     }
+
+
+     }
 
 
 }
