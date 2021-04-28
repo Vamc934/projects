@@ -33,4 +33,12 @@ public Object[][] datasets(){
 	                       ,{"nine","Vamsi@104"}
 	                       ,{"ten","Vamsi@114"}};
 }
+@Test
+public void test1() {
+	System.out.println("hii");
+}
+@Test
+public void test2() {
+	System.out.println("hello");
+}
 }
