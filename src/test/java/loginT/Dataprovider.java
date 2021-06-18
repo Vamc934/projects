@@ -25,8 +25,7 @@ public Object[][] datasets(){
 	return new Object[][] {{"Vamsi","Vamsi@123"}
 	                       ,{"krishna","Vamsi@12"}
 	                       ,{"vamc","Vamsi@124"}
-	                       ,{"kris","Vamsi@123"}
-	                       ,{"five","Vamsi@145"}
+	                      
 	                       ,{"six","Vamsi@134"}
 	                       ,{"seven","Vamsi@164"}
 	                       ,{"eight","Vamsi@174"}
